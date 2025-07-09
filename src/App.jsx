@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
+    <div className="app">
     <BrowserRouter>
     <Navbar/>
     <Routes>
@@ -16,6 +17,7 @@ function App() {
       <Route path='/blog' element={<Blog/>} />
     </Routes>
     </BrowserRouter>
+    </div>
   )
 }
 
